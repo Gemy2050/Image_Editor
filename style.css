@@ -37,18 +37,16 @@ body {
     border: 2px #fff dashed;
     cursor: pointer;
     user-select: none;
-    font-size: 22px;
     font-weight: bold;
 }
 .filters ul, .filters li {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 25px;
     direction: rtl;
 }
 .filters ul li label {
     color: #fff;
-    font-size: 20px;
 }
 .filters ul li:last-child {
     flex-direction: row;
@@ -71,5 +69,14 @@ body {
     }
     .img img, canvas {
         max-width: 70vw;
+    }
+    .upload label {
+        font-size: 22px;
+    }
+    .filters ul, .filters li {
+        gap: 35px;
+    }
+    .filters ul li label {
+        font-size: 20px;
     }
 }
