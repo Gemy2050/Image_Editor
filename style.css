@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
     display: grid;
     grid-template-columns: 5fr 3fr;
-    margin-top: 10px;
+    margin-top: 20px;
     gap: 15px;
 }
 .img {
@@ -23,6 +23,7 @@ body {
     gap: 50px;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 .img img, canvas {
     max-width: 45vw;
@@ -37,15 +38,18 @@ body {
     border: 2px #fff dashed;
     cursor: pointer;
     user-select: none;
+    font-size: 22px;
+    font-weight: bold;
 }
 .filters ul, .filters li {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
     direction: rtl;
 }
 .filters ul li label {
     color: #fff;
+    font-size: 20px;
 }
 .filters ul li:last-child {
     flex-direction: row;
